@@ -1,0 +1,75 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto&display=swap');
+
+ body{
+  background-image: url(./bg.png);
+  background-color: #F0F2F5;
+ }
+
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+    size: 14px;
+    color: #00000073;
+    display: flex;
+   justify-content: center;
+    
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+.div2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+  gap: 16px;
+  width: 368px;
+  
+}
+form{
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  height: 40px;
+  width: 100%;
+}
+
+button{
+  padding-inline: 18px;
+  padding-block: 8px;
+  border: none;
+  color: white;
+  background-color: #1890FF;
+  border-radius:2px;
+  
+
+}
+
+.bolo{
+  display: flex;
+  justify-content: center;
+  margin-top: 210px;
+  gap: 12px;
+  
+}
+
+.number, .code, .Register{
+  display: flex;
+}
+
+.Register {
+  justify-content: space-between;
+}
